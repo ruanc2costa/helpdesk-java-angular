@@ -1,7 +1,9 @@
 package com.valdir.helpdesk.resources.exceptions;
 
+import java.io.Serializable;
 
-public class StandardError {
+public class StandardError  implements Serializable{
+	private static final long serialVersionUID = 1L;
 	
 	private Long timestamp;
 	private Integer status;
